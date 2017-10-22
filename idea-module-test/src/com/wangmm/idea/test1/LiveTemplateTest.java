@@ -8,6 +8,7 @@ public class LiveTemplateTest {
     private static boolean b;
 
     public static void main(String args[]){
+        int b = 3;
         LiveTemplateTest.a = 1;
         System.out.println("-----------wangmm-----------a值=" + LiveTemplateTest.a + "," + "当前类=LiveTemplateTest.main()");
         LiveTemplateTest.b = false;
